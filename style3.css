@@ -1,0 +1,15 @@
+div p{
+    color: red;
+}
+p{
+    color:orange!important;
+}
+h1{
+    color: green;
+}
+
+
+/* inline has priority than internal,external,psudo class ,finally important has priority specificity over :autofill */
+input[type="text"],input[type="email"]{
+color:brown;
+}

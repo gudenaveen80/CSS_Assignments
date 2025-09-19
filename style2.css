@@ -1,0 +1,57 @@
+/* *{
+    color: orange;
+    background-color: black;
+} */
+
+/* p:hover{
+    color: indigo;
+} */
+
+h1::first-line{
+color: orange;
+}
+h1::before{
+    content: "N ";
+color: green;
+}
+h1::after{
+    content:"😍";
+color: green;
+}
+
+p{
+    color: orangered!important;
+}
+
+h1:hover{
+    color:red;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+div:hover{
+    background-color:red;
+    height: 200px;
+    width: 200px;
+}
+input:focus{
+    outline:1px solid green;
+    border: 1px solid green;
+}
+input{
+    color:brown;
+}
+a:hover{
+    color:blue;
+    text-decoration:overline;
+    font-size: 50px;
+}
+a:visited{
+color: red;
+
+}
+a:active{
+    color: blueviolet;
+}

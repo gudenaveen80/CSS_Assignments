@@ -1,0 +1,27 @@
+.div{
+    width: 200px;
+    height: 200px;
+}
+
+
+.static{
+    width:300px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    bottom: 10px; 
+     right: 50px; 
+}
+
+.relative{
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.absolute{
+    width: 300px;
+    height: 200px;
+   background-color: orange;
+   position: absolute;
+}

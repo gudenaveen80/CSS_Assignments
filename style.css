@@ -1,0 +1,13 @@
+.rocky{
+  color:rgb(119, 77, 77);
+  font-variant: small-caps;
+}
+body>h1{
+    font-kerning: calc();
+    color: chocolate;
+}
+
+div~p{
+    color: deeppink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

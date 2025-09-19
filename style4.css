@@ -1,0 +1,12 @@
+body{
+    color: cadetblue;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 05px;
+
+}
+h1{
+    color: initial;
+}
+
+/* only text property will accept inheritance not works in the case of margin or padding use case in css */
